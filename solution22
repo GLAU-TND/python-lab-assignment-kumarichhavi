@@ -1,0 +1,11 @@
+try:
+    obj="hello"
+    obj.remove
+    g=int('int')
+    m='43'+34
+except ValueError:
+    print('Value Error Handled')
+except AttributeError:
+    print('Attribute Error Handled')
+except TypeError:
+    print('Type Error Handled')
